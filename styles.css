@@ -23,7 +23,7 @@ header {
     height: 12em;
     border-radius: 100%;
     margin-top: 1em;
-    margin-left: 2em;
+    margin-left: calc(100vh - 96vh);
 }
 
 #principal-nav {
@@ -32,7 +32,7 @@ header {
     background-color: #000000;
     position: absolute;
     top: 0;
-    right: 2.7em;
+    right: calc(100% - 95%);
 }
 
 #ul-of-principal-navegation {
