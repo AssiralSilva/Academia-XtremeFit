@@ -17,7 +17,8 @@ body {
 
 header {
     background-color: #fbb904;
-    height: 54rem;
+    height: 45rem;
+    margin-bottom: 10rem;
 }
 
 #logo {
@@ -56,27 +57,25 @@ header {
 }
 
 #section-slogan-of-header {
-    width: 30%;
-    position: sticky;
-    right: 0;
-    bottom: 0;
-    background-color: red;
+    width: 35rem;
+    height: 30rem;
+    position: absolute;
+    right: 6%;
+    background-color: transparent;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #principal-image {
     position: absolute;
+    top: 2rem;
+    left: 15%;
 }
+
+#text-slogan-of-section-of-header {
+    color: #ffffff;
+    margin-bottom: 5.6em;
+}
+
+h1 {
+    width: 46rem;
+}
+
