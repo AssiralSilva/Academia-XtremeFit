@@ -68,14 +68,30 @@ header {
     position: absolute;
     top: 2rem;
     left: 15%;
+    width: 32rem;
 }
 
 #text-slogan-of-section-of-header {
     color: #ffffff;
-    margin-bottom: 5.6em;
+    margin-bottom: 4em;
 }
 
 h1 {
-    width: 46rem;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+#line-between-h1-and-h4 {
+    border-top: solid 1px #000000;
+    width: 30rem;
+    position: relative;
+    left: 3rem;
+}
+
+#description-text-in-section-of-header {
+    position: absolute;
+    right: 7rem;
+    width: 24rem;
+    margin-top: 3rem;
 }
 
