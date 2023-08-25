@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Diphylleia&family=Grape+Nuts&family=Inter:wght@300;400;800&family=Josefin+Sans:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -10,23 +13,24 @@
 
 body {
     width: 90%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    
 }
 
 header {
     background-color: #fbb904;
     height: 45rem;
-    margin-bottom: 10rem;
+    margin-bottom: 25rem;
 }
 
 #logo {
-    width: 12em;
-    height: 12em;
+    width: 10em;
+    height: 10em;
     border-radius: 100%;
     margin-top: 1em;
-    margin-left: calc(100vh - 96vh);
+    margin-left: 4vh;
 }
 
 #principal-nav {
@@ -52,7 +56,7 @@ header {
     color: #fff;
 }
 
-.first-li-in-principal-nav {
+.li2 {
     color: #fbb904;
 }
 
@@ -67,7 +71,7 @@ header {
 #principal-image {
     position: absolute;
     top: 2rem;
-    left: 15%;
+    left: 13%;
     width: 32rem;
 }
 
@@ -77,8 +81,11 @@ header {
 }
 
 h1 {
+    width: 30rem;
     font-size: 4rem;
+    margin-left: 2rem;
     margin-bottom: 2rem;
+    font-family: 'Knewave', cursive;
 }
 
 #line-between-h1-and-h4 {
@@ -93,5 +100,35 @@ h1 {
     right: 7rem;
     width: 24rem;
     margin-top: 3rem;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+#fake-background {
+    width: 87%;
+    height: 3rem;
+    background-color: rgba(67, 61, 61, .8);
+    position: absolute;
+    top: 43rem;
+    right: 5%;
+    z-index: -1;
+}
+
+
+p {
+    font-family: 'Jim Nightshade', cursive;
+    width: 53rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+#phase-principal-of-main {
+    font-size: 2rem;
+    color: rgb(217, 161, 6);
+    font-weight: 600;
+    text-align: end;
+    margin-bottom: 10rem;
 }
 
