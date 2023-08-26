@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Knewave&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -131,4 +132,97 @@ p {
     text-align: end;
     margin-bottom: 10rem;
 }
+
+.sub-titles-in-main {
+    font-family: 'Kalam', cursive;
+    font-weight:400;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+#section-of-assignments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section .section-of-assignments {
+    margin-right: 2rem;
+    margin-bottom: 6rem;
+}
+/*
+h3 {
+    position: absolute;
+    left: 10%;
+    top: 110rem;
+    color: #ffffff;
+}
+*/
+section .section-of-assignments img {
+    width: 22rem;
+    height: 20rem;
+    box-shadow: .7rem .7rem #fbb904;
+}
+
+
+
+section .section-of-assignments2 {
+    margin-right: 2rem;
+    margin-bottom: 6rem;
+}
+
+section .section-of-assignments2 img {
+    width: 22rem;
+    height: 20rem;
+    box-shadow: .7rem .7rem #fbb904;
+}
+
+
+section .section-of-assignments3 {
+    margin-bottom: 6rem;
+}
+
+section .section-of-assignments3 img {
+    width: 22rem;
+    height: 20rem;
+    box-shadow: .7rem .7rem #fbb904;
+}
+
+
+section .section-of-assignments4 {
+    margin-right: 2rem;
+    margin-bottom: 6rem;
+}
+
+section .section-of-assignments4 img {
+    width: 22rem;
+    height: 20rem;
+    box-shadow: .7rem .7rem #fbb904;
+}
+
+
+section .section-of-assignments5 {
+    margin-right: 2rem;
+    margin-bottom: 6rem;
+}
+
+section .section-of-assignments5 img {
+    width: 22rem;
+    height: 20rem;
+    box-shadow: .7rem .7rem #fbb904;
+}
+
+
+
+section .section-of-assignments6 {
+    margin-bottom: 6rem;
+}
+
+section .section-of-assignments6 img {
+    width: 22rem;
+    height: 20rem;
+    box-shadow: .7rem .7rem #fbb904;
+}
+
 
