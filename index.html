@@ -7,7 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie-edge" />
     <link rel="stylesheet" href="./styles.css">
     <script src="./script.js"></script>
-    <title>Academia Xtreme Fit</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>
+        Academia Xtreme Fit
+    </title>
 </head>
 
 <body>
@@ -15,7 +22,7 @@
 
     <header>
         <a href="">
-            <img src="./Assets/Logo/Logo.png" alt="Logo" id="logo">
+            <img id="logo" src="./Assets/Logo/Logo.png" alt="Logo">
         </a> <!--COLOCAR LINK PARA A PRÓPRIA IMAGEM-->
 
 
@@ -50,6 +57,8 @@
 
         <img src="./Assets/ImagemPrincipal/Imagem principal sem fundo.png" alt="principal-image" id="principal-image">
 
+
+
         <section id="section-slogan-of-header">
             <h2 id="text-slogan-of-section-of-header">
                 ARE YOU READY?
@@ -62,7 +71,8 @@
             <div id="line-between-h1-and-h4"></div>
     
             <h4 id="description-text-in-section-of-header">
-                Procura-se pessoas que buscam uma jornada rumo a uma versão mais saudável e confiante de si mesmo. Comece aqui na XTREMEFIT.
+                Procura-se pessoas que buscam uma jornada rumo a uma versão 
+                mais saudável e confiante de si mesmo. Comece aqui na XTREMEFIT.
             </h4>
         </section>
 
@@ -115,39 +125,75 @@
         <h2 class="sub-titles-in-main">
             Quer acelerar os resultados?
         </h2>
-
-        <img src="./Assets/MeiodePágina/PLANOS DE EXEMPLO.png" alt=""> <!--FAZER carrocel de modalidades-->
     </main>
 
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./Assets/MeiodePágina/FitDance.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./Assets/MeiodePágina/Musculação1.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./Assets/MeiodePágina/Pilates de Aparelho.jpg" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    
     <!--FOOTER-->
 
     <footer>
-        <img src="./Assets/Logo/Logo.png" alt="logo-in-footer">
+        <img class="logo-in-footer" src="./Assets/Logo/Logo.png" alt="logo-in-footer">
 
-        <div class="line-in-footer"></div>
+        <div>
+            <div class="line-in-footer"></div>
 
-        <h4>
-            Siga a XTREMEFIT
-        </h4>
+            <h4>
+                Siga a XTREMEFIT
+            </h4>
+    
+            <div id="image-of-icons">
+                <img class="icon" src="./Assets/Ícones/facebook.png" alt="facebook-icon">
+                <img class="icon" src="./Assets/Ícones/instagram (2).png" alt="instagram-icon">
+                <img class="icon" src="./Assets/Ícones/whatsapp.png" alt="whatsapp-icon">
+            </div>
+    
+            <div class="line-in-footer"></div>
+        </div>
 
-        <img src="./Assets/Ícones/facebook.png" alt="facebook-icon">
-        <img src="./Assets/Ícones/instagram (1).png" alt="instagram-icon">
-        <img src="./Assets/Ícones/whatsapp.png" alt="whatsapp-icon">
+        <p id="adress">AVENIDA ENG. LUÍZ LA SCALA JÚNIOR, n° 103, São Vicente - SP</p>
 
-        <div class="line-in-footer"></div>
-
-        <p id="adress">Avenida Eng. Luís La Scala Júnior, n° 103, São Vicente - SP</p> <!--COLOCAR IFRAME, PEDIDO DO CLIENTE-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227.90492930577597!2d-46.39823613194651!3d-23.943501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1b971724763d%3A0x88138942d433e6ee!2sxTremeFit%20-%20Academia%20de%20Muscula%C3%A7%C3%A3o%20e%20Modalidades!5e0!3m2!1spt-BR!2sbr!4v1693255618074!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
-        <h5>
-            Horário de Funcionamento
-        </h5>
-
-        <h5>
-            Segunda  a Sexta  -    07hs às 22hs
-            Sábado -----------    09hs às 12hs
-            Domingo  ---------------  Fechado
-            Feriado  --------------  A Consultar
-        </h5>
+        <div id="box-of-times-and-days">
+            <h5>
+                Horário de Funcionamento
+            </h5>
+    
+            <div>
+                <h5 class="days-and-times">
+                    Segunda  a Sexta  -    07hs às 22hs
+                </h5>
+                <h5 class="days-and-times">
+                    Sábado -----------    09hs às 12hs
+                </h5>
+                <h5 class="days-and-times">
+                    Domingo  ---------------  Fechado
+                </h5>
+                <h5 class="days-and-times">
+                    Feriado  --------------  A Consultar
+                </h5>
+            </div>
+        </div>
 
         <div id="div-in-footer">
             © 2023 XTREMEFIT. Todos os direitos reservados
