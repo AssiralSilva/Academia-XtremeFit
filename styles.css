@@ -110,7 +110,6 @@ section h1 {
     z-index: -1;
 }
 
-
 p {
     font-family: 'Jim Nightshade', cursive;
     width: 53rem;
@@ -223,14 +222,15 @@ section .section-of-assignments6 img {
     box-shadow: .7rem .7rem #fbb904;
 }
 
-.carousel {
-    width: 50em;
-    height: 30em;
+.carousel-inner {
+    display: flex;
+}
+
+.carousel-item {
     display: block;
-    margin-right: auto;
-    margin-bottom: 15em;
-    margin-left: auto;
-} 
+    margin-right: 0;
+    flex: 0 0 calc(100%/3);
+}
 
 
 footer {
