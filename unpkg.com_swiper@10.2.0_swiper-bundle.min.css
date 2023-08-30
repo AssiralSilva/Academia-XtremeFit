@@ -98,11 +98,11 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     margin-top: 13em;
-    width: 38em ! important;
-    height: 48em;
-    margin-right: 30px;
+    width: 20em ! important;
+    height: 35em;
+    margin-right: 70px !important;
     background-color: #1e1e1e;
-
+    padding: 0 1em 0 2em;
 }
 
 .swiper-3d.swiper-css-mode .swiper-wrapper {
@@ -286,7 +286,7 @@
 .swiper-button-next,
 .swiper-button-prev {
     position: absolute;
-    top: 560vh;
+    top: 540vh;
     right: 100em;
     right: 2em;
     width: calc(var(--swiper-navigation-size)/ 44 * 27);
@@ -376,7 +376,6 @@
 }
 
 .swiper-pagination {
-    position: absolute;
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0, 0, 0);
