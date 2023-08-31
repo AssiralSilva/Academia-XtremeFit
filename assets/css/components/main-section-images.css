@@ -22,6 +22,7 @@
 }
 
 .sub-title {
+  text-align: center;
   font-size: 5rem;
   margin-bottom: 5rem;
   color: var(--white);
@@ -37,5 +38,36 @@
 .section-images div img {
   width: 26rem;
   height: 24rem;
-  box-shadow: 0.9rem 0.9rem var(--black);
+  box-shadow: 0.5rem 0.5rem var(--black);
+}
+
+@media screen and (max-width: 900px) {
+  .section-images__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .section-images div img {
+    width: 22rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .sub-title {
+    font-size: 3.2rem;
+  }
+
+  .section-images div img {
+    width: 16rem;
+    height: 14rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .section-images div img {
+    width: 12rem;
+    height: 10rem;
+  }
 }
