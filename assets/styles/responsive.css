@@ -27,11 +27,23 @@
 }
 
 /* MAIN SECTION IMAGES */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   .section-images__wrapper {
-    display: grid;
+    padding: 0 1rem;
+  }
+
+  .section-images div img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .section-images__wrapper {
     grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
+  }
+  .section-images__wrapper {
+    gap: 0.5rem;
   }
 
   .section-images div img {
