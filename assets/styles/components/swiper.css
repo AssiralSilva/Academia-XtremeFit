@@ -40,8 +40,8 @@
   color: #fbb904;
 }
 
-#falha {
-  padding-top: 1.3em;
+.circle-of-price-of-modalities:last-child {
+  background-color: #ff4500;
 }
 
 .circle-of-price-of-modalities p {
