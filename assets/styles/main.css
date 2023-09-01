@@ -169,6 +169,7 @@ main .quote-container {
 
 .sub-titles-in-main {
   display: block;
+  margin-top: 2em;
   margin-right: auto;
   margin-left: auto;
   width: 14.5em;
@@ -177,7 +178,7 @@ main .quote-container {
 /* <-- FOOTER --> */
 footer {
   background-color: var(--orange-200);
-  margin-top: 10rem;
+  margin-top: 12em;
   display: flex;
   flex-direction: column;
   align-items: center;

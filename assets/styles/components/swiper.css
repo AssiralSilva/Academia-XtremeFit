@@ -3,7 +3,6 @@
   font-size: 18px;
   background: #fff;
   width: 35em !important;
-  Center slide text vertically
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -86,10 +85,13 @@
 }
 
 .view-more {
-  margin-top: 2em;
+  margin-top: 1em;
   font-size: 1.2em;
   padding: 0.5em;
-  width: 10em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
   background-color: #fbb904;
   border: solid transparent;
   border-radius: 25px;

@@ -94,15 +94,14 @@
 }
 
 .swiper-backface-hidden .swiper-slide {
-    transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
+    transform: translateZ(0px);
     backface-visibility: hidden;
     margin-top: 13em;
-    width: 20em ! important;
-    height: 35em;
-    margin-right: 70px !important;
-    background-color: #1e1e1e;
-    padding: 0 1em 0 2em;
+    height: 37em;
+    background-color: rgb(30, 30, 30);
+    padding: 0px 1em 0px 2em;
+    width: 21em !important;
+    margin-right: 100px !important;
 }
 
 .swiper-3d.swiper-css-mode .swiper-wrapper {
@@ -286,7 +285,7 @@
 .swiper-button-next,
 .swiper-button-prev {
     position: absolute;
-    top: 540vh;
+    top: 300vh;
     right: 100em;
     right: 2em;
     width: calc(var(--swiper-navigation-size)/ 44 * 27);
@@ -398,7 +397,8 @@
     bottom: var(--swiper-pagination-bottom, 8px);
     top: var(--swiper-pagination-top, auto);
     left: 0;
-    width: 100%
+    width: 100%;
+    margin-top: 3em;
 }
 
 .swiper-pagination-bullets-dynamic {
