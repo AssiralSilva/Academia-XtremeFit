@@ -27,7 +27,7 @@
 }
 
 /* MAIN SECTION IMAGES */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .section-images__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;

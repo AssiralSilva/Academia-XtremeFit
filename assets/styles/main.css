@@ -140,19 +140,6 @@ main .quote-container {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 30px var(--black);
-}
-
-.section-images::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  height: 100%;
-  background-color: var(--orange-200);
 }
 
 .sub-title {
@@ -170,9 +157,8 @@ main .quote-container {
 }
 
 .section-images div img {
-  width: 26rem;
-  height: 24rem;
-  box-shadow: 0.5rem 0.5rem var(--black);
+  width: 100%;
+  box-shadow: 0.6rem 0.6rem var(--orange-200);
 }
 
 /*.swiper-slide {
