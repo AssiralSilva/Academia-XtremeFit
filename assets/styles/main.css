@@ -1,5 +1,6 @@
 @import url("./reset.css");
 @import url("./components/navbar.css");
+@import url("./components/swiper.css");
 
 body {
   overflow-x: hidden;
@@ -162,102 +163,9 @@ main .quote-container {
   box-shadow: 0.6rem 0.6rem var(--orange-200);
 }
 
-/*.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  width: 35em !important;
-  Center slide text vertically
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
+.section-images div .image img:hover {
+  background-color: rgba(0, 0, 0, 0.9);
 }
-
-.circle-of-price-of-modalities:first-child {
-  background-color: #000000;
-  color: #ffffff;
-  width: 12em;
-  height: 12em;
-  border-radius: 100%;
-  position: relative;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  top: -8em;
-}
-
-.circle-of-price-of-modalities h2 {
-  width: 6em;
-  font-size: 1.5em;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 2em;
-  color: #fbb904;
-}
-
-#falha {
-  padding-top: 1.3em;
-}
-
-.circle-of-price-of-modalities p {
-  color: #ffffff;
-  width: 1em;
-  margin-top: 0.5em;
-  margin-left: 1.5em;
-  font-size: 1em;
-  font-family: "Inter";
-}
-
-.circle-of-price-of-modalities h3 {
-  width: 3em;
-  margin-left: 2em;
-  font-size: 2.2em;
-  color: #fbb904;
-}
-
-.circle-of-price-of-modalities h3:nth-child(2) {
-  margin-left: 2em;
-  font-size: 1.8em;
-}
-
-.swiper-slide:first-child {
-  background-color: green;
-  height: 100%;
-}
-
-.descriptions-of-modalities {
-  width: 10em;
-  color: #ffffff;
-  font-size: 1.3em;
-  display: inline-flex;
-  margin-bottom: 0.5em;
-}
-
-.tick-symbol {
-  width: 2em;
-  height: 2em;
-  background-color: transparent;
-}
-
-.view-more {
-  margin-top: 2em;
-  font-size: 1.2em;
-  padding: 0.5em;
-  width: 10em;
-  background-color: #fbb904;
-  border: solid transparent;
-  border-radius: 25px;
-}*/
 
 /* <-- FOOTER --> */
 footer {
