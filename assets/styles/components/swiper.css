@@ -17,11 +17,10 @@
   align-items: center;
 }
 
-.circle-of-price-of-modalities:first-child {
+.circle-of-price-of-modalities {
   background-color: #000000;
-  color: #ffffff;
-  width: 12em;
-  height: 12em;
+  width: 15em;
+  height: 15em;
   border-radius: 100%;
   position: relative;
   display: block;
@@ -65,17 +64,18 @@
   font-size: 1.8em;
 }
 
-.swiper-slide:first-child {
-  background-color: green;
-  height: 100%;
+.about-modalities {
+  width: 100%;
+  height: 60%;
 }
 
 .descriptions-of-modalities {
-  width: 10em;
+  width: 14em;
   color: #ffffff;
   font-size: 1.3em;
   display: inline-flex;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
+  text-align: start;
 }
 
 .tick-symbol {
@@ -95,4 +95,8 @@
   background-color: #fbb904;
   border: solid transparent;
   border-radius: 25px;
+  text-decoration: none;
+  color: #000000;
+  font-style: oblique;
+  font-weight: 600;
 }
