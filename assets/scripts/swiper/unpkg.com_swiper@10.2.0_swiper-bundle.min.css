@@ -286,7 +286,7 @@
 .swiper-button-next,
 .swiper-button-prev {
     position: absolute;
-    top: 300vh;
+    top: 320vh;
     right: 100em;
     right: 3em;
     width: calc(var(--swiper-navigation-size)/ 44 * 27);
