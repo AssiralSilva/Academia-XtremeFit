@@ -157,14 +157,34 @@ main .quote-container {
   gap: 1.8rem 4rem;
 }
 
+.image {
+  position: relative;
+}
+
+.image .description {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+  font-weight: bold;
+  font-size: 2.4rem;
+  transition: 0.2s;
+  user-select: none;
+}
+
+.image .description:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--white);
+}
+
 .section-images div img {
+  border-radius: 4px 0 4px 0;
   width: 38rem;
   height: 36rem;
   box-shadow: 0.6rem 0.6rem var(--orange-200);
-}
-
-.section-images div .image img:hover {
-  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .sub-titles-in-main {

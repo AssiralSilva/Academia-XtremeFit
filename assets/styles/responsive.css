@@ -5,7 +5,8 @@
     font-size: 2.5em;
   }
 
-  .swiper-button-next, .swiper-button-prev {
+  .swiper-button-next,
+  .swiper-button-prev {
     display: none !important;
   }
 }
@@ -35,6 +36,10 @@
   .sub-titles-in-main {
     font-size: 1.8em;
     width: 8em;
+  }
+
+  .image .description {
+    font-size: 2.4rem;
   }
 }
 
@@ -141,8 +146,3 @@
     padding: 8rem 2rem 0 2rem;
   }
 }
-
-
-/* Carrocel Responsivo */
-
-
