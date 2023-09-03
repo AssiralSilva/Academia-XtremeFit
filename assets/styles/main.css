@@ -307,6 +307,10 @@ iframe {
     flex-direction: column;
     gap: 2rem;
   }
+
+  .div-in-footer {
+    font-size: 80%;
+  }
 }
 
 /* Segundo Sub Título */
