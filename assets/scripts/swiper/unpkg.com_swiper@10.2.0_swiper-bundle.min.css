@@ -99,10 +99,15 @@
     margin-top: 13em;
     height: 42em;
     background-color: rgb(30, 30, 30);
-    padding: 0px 1em 0px 1em;
     width: 26em !important;
-    margin-right: 8em !important;
-    border-radius: 15px 0 15px 0;
+    margin-right: 9em !important;
+    border-radius: 15px;
+}
+
+.image-gympass {
+    width: 23vw;
+    height: 82.1vh;
+    border-radius: 14px;
 }
 
 @media screen and (max-width:900px) {
@@ -112,10 +117,15 @@
         margin-top: 13em;
         height: 21em;
         background-color: rgb(30, 30, 30);
-        padding: 0px 1em 0px 1em;
         width: 13em !important;
-        margin-right: 10em !important;
-        border-radius: 15px 0 15px 0;
+        margin-right: 2.2em !important;
+        border-radius: 15px;
+    }
+
+    .image-gympass {
+        width: 100%;
+        height: 167%;
+        border-radius: 14px;
     }
 
     .circle-of-price-of-modalities {
@@ -154,12 +164,13 @@
     }
 
     .descriptions-of-modalities {
-        width: 14em;
+        width: 12.5em;
         color: #ffffff;
         font-size: .6em;
         display: inline-flex;
         margin-bottom: 1em;
         text-align: start;
+        margin-left: .6em;
     }
 
     .tick-symbol {
@@ -169,13 +180,13 @@
     }
 
     .view-more {
-        margin-top: 1em;
-        font-size: .7em;
+        margin-top: 2em;
+        font-size: .6em;
         padding: 0.5em;
         display: block;
         margin-right: auto;
         margin-left: auto;
-        width: 80%;
+        width: 62%;
         background-color: #fbb904;
         border: solid transparent;
         border-radius: 25px;
@@ -186,101 +197,61 @@
     }
 }
 
-
-
-@media screen and (max-width:700px) {
+@media screen and (max-width:850px) {
     .swiper-backface-hidden .swiper-slide {
         transform: translateZ(0px);
         backface-visibility: hidden;
         margin-top: 13em;
-        height: 21em;
+        height: 20em;
         background-color: rgb(30, 30, 30);
-        padding: 0px 1em 0px 1em;
-        width: 13em !important;
-        margin-right: 6em !important;
-        border-radius: 15px 0 15px 0;
+        width: 12em !important;
+        margin-right: 2.1em !important;
+        border-radius: 15px;
+    }
+}
+
+.image-gympass {
+    width: 100%;
+    height: 167%;
+    border-radius: 14px;
+}
+
+@media screen and (max-width:800px) {
+    .swiper-backface-hidden .swiper-slide {
+        transform: translateZ(0px);
+        backface-visibility: hidden;
+        margin-top: 13em;
+        height: 20em;
+        background-color: rgb(30, 30, 30);
+        width: 12em !important;
+        margin-right: 1.4em !important;
+        border-radius: 15px;
     }
 
-    .circle-of-price-of-modalities {
-        background-color: #000000;
-        width: 7.5em;
-        height: 7.5em;
-        border-radius: 100%;
-        position: relative;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        top: -4.5em;
-    }
-
-    .circle-of-price-of-modalities h2 {
-        width: 6em;
-        font-size: .7em;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        padding-top: 2em;
-        color: #fbb904;
-    }
-
-    .circle-of-price-of-modalities p {
-        color: #ffffff;
-        width: 1em;
-        font-size: .6em;
-        font-family: "Inter";
-    }
-
-    .circle-of-price-of-modalities h3 {
-        width: 6em;
-        font-size: 1em;
-        color: #fbb904;
-    }
-
-    .descriptions-of-modalities {
-        width: 14em;
-        color: #ffffff;
-        font-size: .6em;
-        display: inline-flex;
-        margin-bottom: 1em;
-        text-align: start;
-    }
-
-    .tick-symbol {
-        width: 1em;
-        height: 1em;
-        background-color: transparent;
-    }
-
-    .view-more {
-        margin-top: 1em;
-        font-size: .7em;
-        padding: 0.5em;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 80%;
-        background-color: #fbb904;
-        border: solid transparent;
-        border-radius: 25px;
-        text-decoration: none;
-        color: #000000;
-        font-style: oblique;
-        font-weight: 600;
+    .image-gympass {
+        width: 100%;
+        height: 167%;
+        border-radius: 14px;
     }
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:750px) {
     .swiper-backface-hidden .swiper-slide {
         transform: translateZ(0px);
         backface-visibility: hidden;
         margin-top: 13em;
-        height: 13em;
+        height: 14em;
         background-color: rgb(30, 30, 30);
-        padding: 0px 1em;
-        border-radius: 15px 0px;
-        width: 8em !important;
-        margin-right: 9em !important;
+        border-radius: 15px;
+        width: 9em !important;
+        margin-right: 3.3em !important;
+    }
+
+    .image-gympass {
+        width: 100%;
+        height: 167%;
+        border-radius: 14px;
     }
 
     .circle-of-price-of-modalities {
@@ -321,7 +292,7 @@
     .descriptions-of-modalities {
         width: 14em;
         color: #ffffff;
-        font-size: .2em;
+        font-size: .4em;
         display: inline-flex;
         margin-bottom: .5em;
         text-align: start;
@@ -334,15 +305,15 @@
     }
 
     .view-more {
-        margin-top: 4em;
-        font-size: .4em;
+        margin-top: 2em;
+        font-size: .5em;
         padding: 0.5em;
         display: block;
         margin-right: auto;
         margin-left: auto;
         width: 80%;
         background-color: #fbb904;
-        border: .2em solid #fbb904;
+        border: .23em solid #fbb904;
         border-radius: 25px;
         text-decoration: none;
         color: #000000;
@@ -350,6 +321,47 @@
         font-weight: 600;
     }
 }
+
+@media screen and (max-width: 700px){
+    .swiper-backface-hidden .swiper-slide {
+        transform: translateZ(0px);
+        backface-visibility: hidden;
+        margin-top: 13em;
+        height: 14em;
+        background-color: rgb(30, 30, 30);
+        border-radius: 15px;
+        width: 9em !important;
+        margin-right: 2em !important;
+    }
+
+    .image-gympass {
+        width: 100%;
+        height: 167%;
+        border-radius: 14px;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .swiper-backface-hidden .swiper-slide {
+        transform: translateZ(0px);
+        backface-visibility: hidden;
+        margin-top: 13em;
+        height: 15em;
+        background-color: rgb(30, 30, 30);
+        border-radius: 15px;
+        width: 10em !important;
+        margin-right: 6em !important;
+    }
+
+    .image-gympass {
+        width: 100%;
+        height: 167%;
+        border-radius: 14px;
+    }
+}
+
+
 
 .swiper-3d.swiper-css-mode .swiper-wrapper {
     perspective: 1200px
@@ -1043,3 +1055,4 @@ button.swiper-pagination-bullet {
     backface-visibility: hidden;
     overflow: hidden
 }
+
