@@ -220,10 +220,12 @@ footer div h4 {
 }
 
 .adress {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-align: center;
-  margin-top: 4rem;
   font-weight: bold;
+  width: 80%;
+  display: block;
+  margin: 4em auto 2em auto;
 }
 
 iframe {

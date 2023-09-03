@@ -25,7 +25,7 @@
     position: relative;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    /* margin-right: auto; */
     z-index: 1
 }
 
@@ -101,8 +101,254 @@
     background-color: rgb(30, 30, 30);
     padding: 0px 1em 0px 1em;
     width: 26em !important;
-    margin-right: 9em !important;
+    margin-right: 8em !important;
     border-radius: 15px 0 15px 0;
+}
+
+@media screen and (max-width:900px) {
+    .swiper-backface-hidden .swiper-slide {
+        transform: translateZ(0px);
+        backface-visibility: hidden;
+        margin-top: 13em;
+        height: 21em;
+        background-color: rgb(30, 30, 30);
+        padding: 0px 1em 0px 1em;
+        width: 13em !important;
+        margin-right: 10em !important;
+        border-radius: 15px 0 15px 0;
+    }
+
+    .circle-of-price-of-modalities {
+        background-color: #000000;
+        width: 7.5em;
+        height: 7.5em;
+        border-radius: 100%;
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        top: -4.5em;
+    }
+
+    .circle-of-price-of-modalities h2 {
+        width: 6em;
+        font-size: .7em;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 2em;
+        color: #fbb904;
+    }
+
+    .circle-of-price-of-modalities p {
+        color: #ffffff;
+        width: 1em;
+        font-size: .6em;
+        font-family: "Inter";
+    }
+
+    .circle-of-price-of-modalities h3 {
+        width: 6em;
+        font-size: 1em;
+        color: #fbb904;
+    }
+
+    .descriptions-of-modalities {
+        width: 14em;
+        color: #ffffff;
+        font-size: .6em;
+        display: inline-flex;
+        margin-bottom: 1em;
+        text-align: start;
+    }
+
+    .tick-symbol {
+        width: 1em;
+        height: 1em;
+        background-color: transparent;
+    }
+
+    .view-more {
+        margin-top: 1em;
+        font-size: .7em;
+        padding: 0.5em;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+        background-color: #fbb904;
+        border: solid transparent;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #000000;
+        font-style: oblique;
+        font-weight: 600;
+    }
+}
+
+
+
+@media screen and (max-width:700px) {
+    .swiper-backface-hidden .swiper-slide {
+        transform: translateZ(0px);
+        backface-visibility: hidden;
+        margin-top: 13em;
+        height: 21em;
+        background-color: rgb(30, 30, 30);
+        padding: 0px 1em 0px 1em;
+        width: 13em !important;
+        margin-right: 6em !important;
+        border-radius: 15px 0 15px 0;
+    }
+
+    .circle-of-price-of-modalities {
+        background-color: #000000;
+        width: 7.5em;
+        height: 7.5em;
+        border-radius: 100%;
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        top: -4.5em;
+    }
+
+    .circle-of-price-of-modalities h2 {
+        width: 6em;
+        font-size: .7em;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 2em;
+        color: #fbb904;
+    }
+
+    .circle-of-price-of-modalities p {
+        color: #ffffff;
+        width: 1em;
+        font-size: .6em;
+        font-family: "Inter";
+    }
+
+    .circle-of-price-of-modalities h3 {
+        width: 6em;
+        font-size: 1em;
+        color: #fbb904;
+    }
+
+    .descriptions-of-modalities {
+        width: 14em;
+        color: #ffffff;
+        font-size: .6em;
+        display: inline-flex;
+        margin-bottom: 1em;
+        text-align: start;
+    }
+
+    .tick-symbol {
+        width: 1em;
+        height: 1em;
+        background-color: transparent;
+    }
+
+    .view-more {
+        margin-top: 1em;
+        font-size: .7em;
+        padding: 0.5em;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+        background-color: #fbb904;
+        border: solid transparent;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #000000;
+        font-style: oblique;
+        font-weight: 600;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .swiper-backface-hidden .swiper-slide {
+        transform: translateZ(0px);
+        backface-visibility: hidden;
+        margin-top: 13em;
+        height: 13em;
+        background-color: rgb(30, 30, 30);
+        padding: 0px 1em;
+        border-radius: 15px 0px;
+        width: 8em !important;
+        margin-right: 9em !important;
+    }
+
+    .circle-of-price-of-modalities {
+        background-color: #000000;
+        width: 4em;
+        height: 4em;
+        border-radius: 100%;
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        top: -2.5em;
+    }
+
+    .circle-of-price-of-modalities h2 {
+        width: 6em;
+        font-size: .4em;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 2em;
+        color: #fbb904;
+    }
+
+    .circle-of-price-of-modalities p {
+        color: #ffffff;
+        width: 1em;
+        font-size: .4em;
+        font-family: "Inter";
+    }
+
+    .circle-of-price-of-modalities h3 {
+        width: 4em;
+        font-size: .6em;
+        color: #fbb904;
+    }
+
+    .descriptions-of-modalities {
+        width: 14em;
+        color: #ffffff;
+        font-size: .2em;
+        display: inline-flex;
+        margin-bottom: .5em;
+        text-align: start;
+    }
+
+    .tick-symbol {
+        width: .8em;
+        height: .8em;
+        background-color: transparent;
+    }
+
+    .view-more {
+        margin-top: 4em;
+        font-size: .4em;
+        padding: 0.5em;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+        background-color: #fbb904;
+        border: .2em solid #fbb904;
+        border-radius: 25px;
+        text-decoration: none;
+        color: #000000;
+        font-style: oblique;
+        font-weight: 600;
+    }
 }
 
 .swiper-3d.swiper-css-mode .swiper-wrapper {
