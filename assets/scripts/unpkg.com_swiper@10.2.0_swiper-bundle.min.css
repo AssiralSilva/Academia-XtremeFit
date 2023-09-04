@@ -253,22 +253,6 @@
     }
 }
 
-/* @media screen and (max-width: 500px){
-    .swiper-backface-hidden .swiper-slide:first-child {
-        height: 18em;
-        width: 11em !important;
-        margin-right: 1em !important;
-        margin-left: 7em;
-    }
-
-    .swiper-backface-hidden .swiper-slide:nth-child(2) {
-        height: 18em;
-        width: 11em !important;
-        margin-right: 1em !important;
-        margin-left: 7em;
-    }
-} */
-
 
 .swiper-3d.swiper-css-mode .swiper-wrapper {
     perspective: 1200px
