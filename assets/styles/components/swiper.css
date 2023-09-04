@@ -19,14 +19,24 @@
 
 .circle-of-price-of-modalities {
   background-color: #000000;
-  width: 15em;
-  height: 15em;
-  border-radius: 100%;
+  width: 13em;
+  height: 13em;
+  border-radius: 100% 100% 0;
   position: relative;
   display: block;
   margin-right: auto;
   margin-left: auto;
   top: -8em;
+  z-index: 5;
+}
+
+.image-of-card-of-carrousel {
+  width: 100%;
+  height: 45%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px 15px 0 0;
 }
 
 .circle-of-price-of-modalities h2 {
@@ -66,16 +76,19 @@
 
 .about-modalities {
   width: 100%;
-  height: 60%;
+  height: 51%;
+  position: absolute;
+  bottom: 0;
 }
 
 .descriptions-of-modalities {
   width: 14em;
   color: #ffffff;
-  font-size: 1.3em;
+  font-size: 1.1em;
   display: inline-flex;
   margin-bottom: 1em;
   text-align: start;
+  margin-top: 1em;
 }
 
 .tick-symbol {
