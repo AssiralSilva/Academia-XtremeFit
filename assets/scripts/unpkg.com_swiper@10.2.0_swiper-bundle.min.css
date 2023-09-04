@@ -111,9 +111,22 @@
 }
 
 @media screen and (max-width:900px) {
+    .quote-container blockquote {
+        margin: -3em auto 0 auto;
+    }
+
+    .section-images {
+        margin-top: -10em;
+        height: 50vh !important;
+    }
+
+    .sub-titles-in-main {
+        margin-top: 0;
+    }
+
     .swiper-backface-hidden .swiper-slide {
         height: 21em;
-        width: 13em !important;
+        width: 12.5em !important;
         margin-right: 2.2em !important;
     }
 
@@ -214,29 +227,29 @@
     }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
     .swiper-backface-hidden .swiper-slide {
-        margin-top: 13em;
         height: 18em;
         margin-right: 5em !important;
+        margin-top: 8em !important;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .swiper-backface-hidden .swiper-slide {
         margin-right: 4.5em !important;
     }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 550px) {
     .swiper-backface-hidden .swiper-slide {
         height: 18em;
         width: 11em !important;
-        margin-right: 2em !important;
+        margin-right: 2.3em !important;
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     .swiper-container {
         width: 97%;
     }
@@ -435,7 +448,7 @@
 .swiper-button-next,
 .swiper-button-prev {
     position: absolute;
-    top: 320vh;
+    top: 268vh;
     right: 100em;
     right: 3em;
     width: calc(var(--swiper-navigation-size)/ 44 * 27);
@@ -946,4 +959,3 @@ button.swiper-pagination-bullet {
     backface-visibility: hidden;
     overflow: hidden
 }
-
