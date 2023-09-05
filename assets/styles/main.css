@@ -189,13 +189,18 @@ main .quote-container {
   height: 100%;
   position: absolute;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   color: transparent;
-  font-weight: bold;
-  font-size: 2.4rem;
   transition: 0.2s;
   user-select: none;
+}
+
+.image .description span {
+  font-size: 2.4rem;
+  font-weight: bold;
 }
 
 .image .description:hover {
@@ -352,10 +357,6 @@ iframe {
     font-size: 1.8em;
     width: 8em;
   }
-
-  .image .description {
-    font-size: 2.4rem;
-  }
 }
 
 @media screen and (max-width: 290px) {
@@ -385,7 +386,7 @@ iframe {
     grid-template-columns: 1fr 1fr;
   }
   .section-images__wrapper {
-    gap: 0.5rem;
+    gap: 1rem;
   }
 
   .section-images div img {
