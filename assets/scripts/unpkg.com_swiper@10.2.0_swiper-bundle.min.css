@@ -113,22 +113,13 @@
     border-radius: 15px;
 }
 
-/* .image-gympass {
-    width: 100%;
-    height: 167%;
-    border-radius: 14px;
-} */
-
 .image-gympass {
-    width: 26em !important;
-    height: 42em !important;
-    background-color: green;
-}
-
-/* .image-gympass img {
     width: 100%;
-    height: 100%;
-} */
+    height: 197%;
+    border-radius: 14px;
+    position: relative;
+    top: -96.5%;
+}
 
 @media screen and (max-width:900px) {
     .quote-container blockquote {
