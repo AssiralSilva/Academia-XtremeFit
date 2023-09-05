@@ -505,13 +505,19 @@
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
     left: var(--swiper-navigation-sides-offset, 2em);
-    right: auto
+    right: auto;
+    position: absolute;
+    z-index: 1000;
+    top: 200em !important;
 }
 
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
     right: var(--swiper-navigation-sides-offset, 30px) !important;
-    left: auto
+    left: auto;
+    position: absolute;
+    z-index: 1000;
+    top: 200em !important;
 }
 
 .swiper-button-lock {
@@ -536,7 +542,8 @@
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
     right: var(--swiper-navigation-sides-offset, 10px);
-    left: auto
+    left: auto;
+    
 }
 
 .swiper-button-next:after,
@@ -965,4 +972,24 @@ button.swiper-pagination-bullet {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden
+}
+
+@media screen and (max-width:1800px) {
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: var(--swiper-navigation-sides-offset, 2em);
+        right: auto;
+        position: absolute !important;
+        z-index: 1000 !important;
+        top: 182em !important;
+    }
+  
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: var(--swiper-navigation-sides-offset, 30px) !important;
+        left: auto;
+        position: absolute !important;
+        z-index: 1000 !important;
+        top: 182em !important;
+    }
 }
